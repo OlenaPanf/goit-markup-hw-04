@@ -88,7 +88,8 @@ body {
 }
 
 .page-header {
-    border-bottom: 1px solid #E7E9FC; 
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -307,7 +308,7 @@ body {
 
 .card-info {
     width: 264px;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-text-title,
@@ -370,7 +371,7 @@ body {
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    transition: borderbox-shado border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: borderbox-shadow border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
 
  .portfolio-card {
@@ -402,10 +403,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 40px;
-    padding-bottom: 164px;
+    padding: 40px 32px;
     color: #F4F4FD;
     background: #4D5AE5;
     width: 100%;
@@ -456,26 +454,24 @@ body {
 
 .page-footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-logotype {
     margin-right: 120px;
 }
 
-.footer-icons {
-    
-}
 
 .footer-icons-text {
     font-weight: 500;
     color: #FFF;
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-top: 16px;
 }
 
 .footer-social-list-item {
